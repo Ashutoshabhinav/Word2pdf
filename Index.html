@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section bg-saffron-light text-center py-5 mb-5">
+    <div class="container">
+        <h1 class="display-4">Your All-in-One Tool Solution</h1>
+        <p class="lead">Convert, compress, and transform files with ease</p>
+    </div>
+</section>
+
+<!-- Audio/Video Tools Section -->
+<section id="audio-video-tools" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5"><i class="fas fa-music me-2"></i>Audio & Video Tools</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card tool-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-file-video tool-icon mb-3"></i>
+                        <h5 class="card-title">Video Converter</h5>
+                        <p class="card-text">Convert between MP4, AVI, MOV, and more video formats.</p>
+                        <a href="#" class="btn btn-saffron">Use Tool</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card tool-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-file-audio tool-icon mb-3"></i>
+                        <h5 class="card-title">Audio Converter</h5>
+                        <p class="card-text">Convert between MP3, WAV, AAC, and other audio formats.</p>
+                        <a href="#" class="btn btn-saffron">Use Tool</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card tool-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-compress-alt tool-icon mb-3"></i>
+                        <h5 class="card-title">Video Compressor</h5>
+                        <p class="card-text">Reduce video file size without losing quality.</p>
+                        <a href="#" class="btn btn-saffron">Use Tool</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Image Tools Section -->
+<section id="image-tools" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5"><i class="fas fa-image me-2"></i>Image Tools</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card tool-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-compress-arrows-alt tool-icon mb-3"></i>
+                        <h5 class="card-title">Image Compressor</h5>
+                        <p class="card-text">Reduce image file size while maintaining quality.</p>
+                        <a href="#" class="btn btn-saffron">Use Tool</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card tool-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-expand tool-icon mb-3"></i>
+                        <h5 class="card-title">Resize Image</h5>
+                        <p class="card-text">Change image dimensions to your required size.</p>
+                        <a href="#" class="btn btn-saffron">Use Tool</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card tool-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-exchange-alt tool-icon mb-3"></i>
+                        <h5 class="card-title">Image Converter</h5>
+                        <p class="card-text">Convert between JPG, PNG, GIF, and other formats.</p>
+                        <a href="#" class="btn btn-saffron">Use Tool</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Office Tools Section -->
+<section id="office-tools" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5"><i class="fas fa-file-alt me-2"></i>Office Tools</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card tool-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-file-word tool-icon mb-3"></i>
+                        <h5 class="card-title">Word to PDF</h5>
+                        <p class="card-text">Convert DOC/DOCX files to PDF format.</p>
+                        <a href="#" class="btn btn-saffron">Use Tool</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card tool-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-file-pdf tool-icon mb-3"></i>
+                        <h5 class="card-title">PDF to Word</h5>
+                        <p class="card-text">Convert PDF files to editable Word documents.</p>
+                        <a href="#" class="btn btn-saffron">Use Tool</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card tool-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-file-excel tool-icon mb-3"></i>
+                        <h5 class="card-title">Excel to PDF</h5>
+                        <p class="card-text">Convert XLS/XLSX files to PDF format.</p>
+                        <a href="#" class="btn btn-saffron">Use Tool</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="cta-section bg-saffron text-white py-5">
+    <div class="container text-center">
+        <h2 class="mb-4">Ready to get started?</h2>
+        <p class="lead mb-4">Choose from our wide range of tools to make your work easier.</p>
+        <a href="#audio-video-tools" class="btn btn-light btn-lg">Explore Tools</a>
+    </div>
+</section>
+{% endblock %}
